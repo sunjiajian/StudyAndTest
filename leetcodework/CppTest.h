@@ -7,9 +7,10 @@
 using namespace std;
 
 
-#define __NameSpaceCppTest__ namespace CppTest{
+#define __NameSpace_ct__ namespace ct{
 #define __NameSpaceEnd__ }
-__NameSpaceCppTest__
+
+__NameSpace_ct__
 
 
 void testVector1()

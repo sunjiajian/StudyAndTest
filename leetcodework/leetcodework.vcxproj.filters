@@ -21,6 +21,9 @@
     <ClCompile Include="LeetCodeQ.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="BinTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DynamicProgramic.h">
@@ -30,6 +33,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="CppTest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BinTree.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

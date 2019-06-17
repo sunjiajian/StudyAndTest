@@ -1,6 +1,6 @@
 #include "leetcodeq.h"
 
-using namespace LeetCode;
+using namespace lc;
 
 ListNode* CLeetCodeQ::addTwoNumbers(ListNode * l1, ListNode * l2)
 {
@@ -624,5 +624,7 @@ int CLeetCodeQ::maximalRectangle(vector<vector<char>>& matrix)
 
 	int size1 = matrix.size();
 	int size2 = matrix[0].size();
+
+	return 0;
 }
 

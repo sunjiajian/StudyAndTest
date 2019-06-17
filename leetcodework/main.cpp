@@ -2,7 +2,7 @@
 #include "DynamicProgramic.h"
 #include "CppTest.h"
 
-using namespace LeetCode;
+using namespace lc;
 
 void leetCodeTest()
 {
@@ -125,7 +125,7 @@ void dynamicTest()
 
 int main()
 {
-	CppTest::testVector2();
+	ct::testVector2();
 
 	vector<int> money = { 1,5,11 };
 	cout << count_if(money.begin(), money.end(), not1(bind2nd(less<int>(), 40))) << endl;

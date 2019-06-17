@@ -21,13 +21,13 @@
 #define min(a,b) (((a) < (b)) ? (a) : (b))
 
 
-#define __NameSpaceLeetCode__ namespace LeetCode{
-#define __NameSpaceEnd__ }
-
-
 using namespace std;
 
-__NameSpaceLeetCode__
+
+#define __NameSpace_lc__ namespace lc{
+#define __NameSpaceEnd__ }
+
+__NameSpace_lc__
 
 // 2
 struct ListNode

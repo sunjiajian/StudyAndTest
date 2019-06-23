@@ -121,12 +121,15 @@
     <ClCompile Include="BinTree.cpp" />
     <ClCompile Include="LeetCodeQ.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="SplitTile.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinTree.h" />
     <ClInclude Include="CppTest.h" />
     <ClInclude Include="DynamicProgramic.h" />
     <ClInclude Include="LeetCodeQ.h" />
+    <ClInclude Include="MajongType.h" />
+    <ClInclude Include="SplitTile.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

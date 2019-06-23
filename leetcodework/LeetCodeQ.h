@@ -95,10 +95,6 @@ public:
 	// 85 
 	static int maximalRectangle(vector<vector<char>>& matrix);
 
-	int good1;
-	int good2;
-	int good3;
-
 	CLeetCodeQ() {}
 	~CLeetCodeQ() {}
 };

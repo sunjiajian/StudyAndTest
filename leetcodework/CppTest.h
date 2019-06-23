@@ -13,7 +13,7 @@ using namespace std;
 __NameSpace_ct__
 
 
-void testVector1()
+static void testVector1()
 {
 	vector<int> vec1;
 	cout << "vector.size() = " << vec1.size() << endl;
@@ -56,6 +56,23 @@ void testVector2()
 		cout << "vector.capacity() = " << vec1.capacity() << endl;
 		cout << "vector.data() = " << vec1.data() << endl << endl;
 	} 
+}
+
+void testString1()
+{
+	string str;
+	cout << "vector.size() = " << str.size() << endl;
+	cout << "vector.capacity() = " << str.capacity() << endl;
+	cout << "vector.data() = " << str.data() << endl << endl;
+
+	int size = 100000;
+	for (int i = 0; i < size; ++i)
+	{
+		str.push_back('s');
+		cout << "vector.size() = " << str.size() << endl;
+		cout << "vector.capacity() = " << str.capacity() << endl;
+		cout << "vector.data() = " << str.data() << endl << endl;
+	}
 }
 
 __NameSpaceEnd__

@@ -1,6 +1,7 @@
 #include "LeetCodeQ.h"
 #include "DynamicProgramic.h"
 #include "CppTest.h"
+#include "SplitTile.h"
 
 using namespace lc;
 
@@ -125,7 +126,7 @@ void dynamicTest()
 
 int main()
 {
-	ct::testVector2();
+	ct::testString1();
 
 	vector<int> money = { 1,5,11 };
 	cout << count_if(money.begin(), money.end(), not1(bind2nd(less<int>(), 40))) << endl;

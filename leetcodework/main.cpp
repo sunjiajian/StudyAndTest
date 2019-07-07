@@ -126,6 +126,10 @@ void dynamicTest()
 
 int main()
 {
+	CLeetCodeQ* pclq123 = new CLeetCodeQ();
+	ct::SafeDelete(&pclq123);
+
+
 	ct::testString1();
 
 	vector<int> money = { 1,5,11 };

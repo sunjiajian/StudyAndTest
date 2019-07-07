@@ -95,8 +95,8 @@ public:
 	// 85 
 	static int maximalRectangle(vector<vector<char>>& matrix);
 
-	CLeetCodeQ() {}
-	~CLeetCodeQ() {}
+	CLeetCodeQ() { cout << "CLeetCodeQ" << endl; }
+	~CLeetCodeQ() { cout << "~CLeetCodeQ" << endl; }
 };
 
 __NameSpaceEnd__

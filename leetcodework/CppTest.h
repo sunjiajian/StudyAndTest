@@ -75,4 +75,19 @@ void testString1()
 	}
 }
 
+/*
+单纯用指针传递是无法修改指针值为nullptr的
+只有通过传递指针的指针，才能修改指针本身的值
+因为指针传递，本质上依然是值传递
+*/
+template<class T>
+inline void SafeDelete(T **t)
+{
+	if (*t != nullptr)
+	{
+		delete *t;
+		*t = nullptr;
+	}
+}
+
 __NameSpaceEnd__
